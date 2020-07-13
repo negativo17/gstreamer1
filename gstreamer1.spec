@@ -6,7 +6,7 @@
 %global         __python %{__python3}
 
 Name:           gstreamer1
-Version:        1.14.4
+Version:        1.14.5
 Release:        1%{?dist}
 Summary:        GStreamer streaming media framework runtime
 License:        LGPLv2+
@@ -171,5 +171,8 @@ install -m0644 -D %{SOURCE2} %{buildroot}%{_rpmconfigdir}/fileattrs/gstreamer1.a
 %doc %{_datadir}/gtk-doc/html/gstreamer-plugins-%{majorminor}
 
 %changelog
+* Mon Jul 13 2020 Simone Caronni <negativo17@gmail.com> - 1.14.5-1
+- Update to 1.14.5.
+
 * Sun Nov 10 2019 Simone Caronni <negativo17@gmail.com> - 1.14.4-1
 - Rebase on 1.14.4.
